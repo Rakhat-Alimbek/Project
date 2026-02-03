@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MusicPlay — Скачать музыку</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>MusicPlay</h1>
+      <p>Легальная музыка в открытом доступе</p>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+     
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Поиск по названию или исполнителю..." />
+        <button onclick="searchTracks()"></button>
+      </div>
+
+      
+      <div class="tracks-list" id="tracksList">
+        
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 MusicVault. Все треки распространяются по лицензии Creative Commons.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
